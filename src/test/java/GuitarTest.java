@@ -42,4 +42,9 @@ public class GuitarTest {
     public void canGetType() {
         assertEquals("acoustic", guitar.getType());
     }
+
+    @Test
+    public void canGetStringType() {
+        assertEquals("nylon", guitar.getStringType());
+    }
 }

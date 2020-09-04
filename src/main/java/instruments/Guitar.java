@@ -16,4 +16,8 @@ public class Guitar extends Instrument {
     public String getType() {
         return type;
     }
+
+    public String getStringType() {
+        return stringType;
+    }
 }
