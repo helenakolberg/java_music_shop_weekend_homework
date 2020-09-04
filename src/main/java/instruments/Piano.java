@@ -14,4 +14,8 @@ public class Piano extends Instrument {
     public String play() {
         return "Für Elise...";
     }
+
+    public Type getType() {
+        return this.type;
+    }
 }

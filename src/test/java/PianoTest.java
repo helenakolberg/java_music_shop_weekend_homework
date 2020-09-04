@@ -41,6 +41,11 @@ public class PianoTest {
     }
 
     @Test
+    public void canGetType() {
+        assertEquals(Type.ACOUSTIC, piano.getType());
+    }
+
+    @Test
     public void canPlay() {
         assertEquals("Für Elise...", piano.play());
     }
