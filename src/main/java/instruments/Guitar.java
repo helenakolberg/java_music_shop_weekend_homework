@@ -12,4 +12,8 @@ public class Guitar extends Instrument {
         this.stringType = stringType;
         this.numOfStrings = numOfStrings;
     }
+
+    public String getType() {
+        return type;
+    }
 }
