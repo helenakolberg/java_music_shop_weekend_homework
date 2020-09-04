@@ -15,4 +15,8 @@ public abstract class Instrument {
         this.buyingCost = buyingCost;
         this.sellingPrice = sellingPrice;
     }
+
+    public String getCategory() {
+        return category;
+    }
 }
