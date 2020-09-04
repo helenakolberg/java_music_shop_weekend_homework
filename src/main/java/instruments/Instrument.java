@@ -19,4 +19,8 @@ public abstract class Instrument {
     public String getCategory() {
         return category;
     }
+
+    public String getMaterial() {
+        return material;
+    }
 }

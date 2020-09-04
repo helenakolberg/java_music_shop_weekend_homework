@@ -17,4 +17,9 @@ public class GuitarTest {
     public void canGetCategory() {
         assertEquals("string", guitar.getCategory());
     }
+
+    @Test
+    public void canGetMaterial() {
+        assertEquals("wood", guitar.getMaterial());
+    }
 }
