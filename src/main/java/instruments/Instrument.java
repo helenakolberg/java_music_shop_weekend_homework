@@ -31,4 +31,8 @@ public abstract class Instrument {
     public double getBuyingCost() {
         return buyingCost;
     }
+
+    public double getSellingPrice() {
+        return sellingPrice;
+    }
 }
