@@ -41,4 +41,6 @@ public abstract class Instrument implements ISell {
     public double calculateMarkup() {
         return this.sellingPrice - this.buyingCost;
     };
+
+    public abstract String play();
 }
