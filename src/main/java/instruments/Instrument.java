@@ -4,13 +4,13 @@ import behaviours.ISell;
 
 public abstract class Instrument implements ISell {
 
-    public String category;
+    public Category category;
     public String material;
     public String colour;
     public double buyingCost;
     public double sellingPrice;
 
-    public Instrument(String category, String material, String colour, double buyingCost, double sellingPrice) {
+    public Instrument(Category category, String material, String colour, double buyingCost, double sellingPrice) {
         this.category = category;
         this.material = material;
         this.colour = colour;
@@ -18,7 +18,7 @@ public abstract class Instrument implements ISell {
         this.sellingPrice = sellingPrice;
     }
 
-    public String getCategory() {
+    public Category getCategory() {
         return category;
     }
 

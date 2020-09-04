@@ -6,7 +6,7 @@ public class Guitar extends Instrument {
     private String stringType;
     private int numOfStrings;
 
-    public Guitar(String category, String material, String colour, double buyingCost, double sellingPrice, String type, String stringType, int numOfStrings) {
+    public Guitar(Category category, String material, String colour, double buyingCost, double sellingPrice, String type, String stringType, int numOfStrings) {
         super(category, material, colour, buyingCost, sellingPrice);
         this.type = type;
         this.stringType = stringType;
@@ -25,7 +25,6 @@ public class Guitar extends Instrument {
         return numOfStrings;
     }
 
-    @Override
     public String play() {
         return "Wonderwall...";
     }
