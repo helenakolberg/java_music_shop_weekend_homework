@@ -19,4 +19,9 @@ public class Shop {
     public void addItem(ISell item) {
         this.stock.add(item);
     }
+
+    public ISell removeItem(ISell item) {
+        int index = this.stock.indexOf(item);
+        return this.stock.remove(index);
+    }
 }
