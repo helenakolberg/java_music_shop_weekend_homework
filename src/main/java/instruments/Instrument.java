@@ -23,4 +23,8 @@ public abstract class Instrument {
     public String getMaterial() {
         return material;
     }
+
+    public String getColour() {
+        return colour;
+    }
 }

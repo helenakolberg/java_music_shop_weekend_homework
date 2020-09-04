@@ -22,4 +22,9 @@ public class GuitarTest {
     public void canGetMaterial() {
         assertEquals("wood", guitar.getMaterial());
     }
+
+    @Test
+    public void canGetColour() {
+        assertEquals("light brown", guitar.getColour());
+    }
 }
