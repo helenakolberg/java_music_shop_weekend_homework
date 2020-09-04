@@ -22,4 +22,9 @@ public class AccessoryTest {
     public void canGetBuyingCost() {
         assertEquals(10.0, accessory.getBuyingCost(), 0.01);
     }
+
+    @Test
+    public void canGetSellingPrice() {
+        assertEquals(20.0, accessory.getSellingPrice(), 0.01);
+    }
 }

@@ -19,4 +19,8 @@ public class Accessory {
     public double getBuyingCost() {
         return buyingCost;
     }
+
+    public double getSellingPrice() {
+        return sellingPrice;
+    }
 }
