@@ -1,6 +1,8 @@
 package stock;
 
-public class Accessory {
+import behaviours.ISell;
+
+public class Accessory implements ISell {
 
     private String description;
     private double buyingCost;
@@ -23,4 +25,8 @@ public class Accessory {
     public double getSellingPrice() {
         return sellingPrice;
     }
+
+    public double calculateMarkup() {
+        return this.sellingPrice - this.buyingCost;
+    };
 }
