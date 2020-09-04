@@ -11,11 +11,15 @@ public class Piano extends Instrument {
         this.numOfKeys = numOfKeys;
     }
 
-    public String play() {
-        return "Für Elise...";
-    }
-
     public Type getType() {
         return this.type;
+    }
+
+    public int getNumOfKeys() {
+        return this.numOfKeys;
+    }
+
+    public String play() {
+        return "Für Elise...";
     }
 }
