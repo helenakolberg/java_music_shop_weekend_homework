@@ -3,10 +3,10 @@ package instruments;
 public class Guitar extends Instrument {
 
     private Type type;
-    private String stringType;
+    private StringType stringType;
     private int numOfStrings;
 
-    public Guitar(Category category, String material, String colour, double buyingCost, double sellingPrice, Type type, String stringType, int numOfStrings) {
+    public Guitar(Category category, String material, String colour, double buyingCost, double sellingPrice, Type type, StringType stringType, int numOfStrings) {
         super(category, material, colour, buyingCost, sellingPrice);
         this.type = type;
         this.stringType = stringType;
@@ -17,7 +17,7 @@ public class Guitar extends Instrument {
         return type;
     }
 
-    public String getStringType() {
+    public StringType getStringType() {
         return stringType;
     }
 
