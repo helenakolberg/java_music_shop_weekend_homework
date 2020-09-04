@@ -47,4 +47,9 @@ public class GuitarTest {
     public void canGetStringType() {
         assertEquals("nylon", guitar.getStringType());
     }
+
+    @Test
+    public void canGetNumOfStrings() {
+        assertEquals(6, guitar.getNumOfStrings());
+    }
 }
