@@ -52,4 +52,9 @@ public class GuitarTest {
     public void canGetNumOfStrings() {
         assertEquals(6, guitar.getNumOfStrings());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(59.99, guitar.calculateMarkup(), 0.01);
+    }
 }
