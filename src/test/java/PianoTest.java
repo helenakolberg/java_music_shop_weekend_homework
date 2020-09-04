@@ -1,6 +1,6 @@
-import instruments.Category;
+import instruments.enums.Category;
 import instruments.Piano;
-import instruments.Type;
+import instruments.enums.Type;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package instruments;
+package instruments.enums;
 
 public enum Category {
     STRING,

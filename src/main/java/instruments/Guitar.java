@@ -1,5 +1,9 @@
 package instruments;
 
+import instruments.enums.Category;
+import instruments.enums.StringType;
+import instruments.enums.Type;
+
 public class Guitar extends Instrument {
 
     private Type type;

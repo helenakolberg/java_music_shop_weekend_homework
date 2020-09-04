@@ -1,7 +1,7 @@
-import instruments.Category;
+import instruments.enums.Category;
 import instruments.Guitar;
-import instruments.StringType;
-import instruments.Type;
+import instruments.enums.StringType;
+import instruments.enums.Type;
 import org.junit.Before;
 import org.junit.Test;
 
