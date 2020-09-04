@@ -15,4 +15,8 @@ public class Accessory {
     public String getDescription() {
         return description;
     }
+
+    public double getBuyingCost() {
+        return buyingCost;
+    }
 }

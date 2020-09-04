@@ -17,4 +17,9 @@ public class AccessoryTest {
     public void canGetDescription() {
         assertEquals("guitar case", accessory.getDescription());
     }
+
+    @Test
+    public void canGetBuyingCost() {
+        assertEquals(10.0, accessory.getBuyingCost(), 0.01);
+    }
 }
